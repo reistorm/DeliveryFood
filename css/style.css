@@ -23,6 +23,12 @@ body {
     width: 100%;
 }
 
+.description__shop {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 .main {
     flex-grow: 1;
     background: linear-gradient(180deg, rgba(245, 245, 245, 0.00) 1.04%, #F5F5F5 100%);
@@ -67,7 +73,19 @@ body {
     min-height: 124px;
 }
 
+.title_info {
+    margin-left: 10px;
+}
+
 .header-box {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description__shop--box {
+    padding-left: 145px;
     height: 100%;
     display: flex;
     align-items: center;
